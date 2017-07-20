@@ -1,0 +1,24 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.error {
+    background-color: #933;
+    color: #fff;
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.path {
+    font-family: 'Courier New, Courier, monospace';
+    white-space: nowrap;
+}
+
+.path::before {
+    content: '[';
+}
+
+.path::after {
+    content: ']';
+}
